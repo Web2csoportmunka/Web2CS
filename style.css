@@ -8,11 +8,10 @@ main{
 }
 #kezdo{
     background-image: url(kepek/hatterelso.jpg);
-    background-position: center;
+
 }
 #k_header{
     background-image: url(kepek/varos2.jpg);
-    
 }
 #f_header{
     background-image: url(kepek/varos1.jpg);
@@ -30,15 +29,13 @@ main{
 }
 .cimszavak{
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 25vh;
   color: white;
   text-shadow: 5px 5px 5px rgb(6, 40, 66);
 }
-.cimszavak{
-  font-size: 10vh;
-}
+
 .cimszavak p{
-  font-size: 3.5vh;
+  font-size: 3.3vh;
 }
 header{
     height: 100vh;
@@ -112,6 +109,60 @@ article{
   height: 100vh;
 }
 
+#f_cimszoveg{
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(6, 40, 66);
+  padding-top: 25vh;
+  color: white;
+  font-size: 4vh;
+  
+}
+#f_cimszoveg h1{
+  text-align: center;
+  color: white;
+  font-size: 10vh;
+  font-weight: bolder;
+}
+
+#k_cimszoveg h1{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 10vh;
+  font-weight: bolder;
+}
+#k_cimszoveg{
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(6, 40, 66);
+  padding-top: 25vh;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+#f_article p{
+  font-size: 25px;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#k_article p{
+  font-size: 25px;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#k_article{
+  height: 100vh;
+}
+#k_fieldset{
+  border: 3px solid rgb(170, 173, 173);
+  padding: 20px;
+}
+#k_fieldset * {
+  padding: 5px;
+}
+
 .kartya1{
   padding-bottom: 5vh;
 }
@@ -175,16 +226,7 @@ footer{
   color: white;
 }
 
-#k_article{
-  height: 100vh;
-}
-#k_fieldset{
-  border: 3px solid rgb(170, 173, 173);
-  padding: 20px;
-}
-#k_fieldset * {
-  padding: 5px;
-}
+
 
 
 
