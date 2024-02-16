@@ -12,7 +12,7 @@
 </head>
 <body>
     <main>
-        <header id="foglalas">
+        <header id="kezdo">
             <div class="navbar">
                 <a href="index.html">
                     <img class="logo" src="kepek/ikon.jpg" alt="logo">
@@ -30,11 +30,81 @@
                 <a href="foglalas.html">Foglalás</a>
                 <a href="kontakt.html">Kontakt</a>
             </div>
-            <h1></h1>
-            <p></p>
+            <h1>Foglalás</h1>
         </header>
-        <article>
-
+        <article id="f_article">
+            <div class="container col-lg-8">
+                <p>Fedezd fel Görögország varázslatos szigeteit és kulturális látnivalóit egyedülálló turistaprogramjainkkal! Töltsd ki az alábbi űrlapot, hogy garantáld a helyed ezekre az élményekre szóló utazásokon. Legyen részed felejthetetlen pillanatokban és új élményekben ebben az elképesztő országban!</p>
+                <legend>Regisztráljon!</legend>
+                <fieldset id="k_fieldset">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <label for="email">E-mail cím:</label>
+                                <input type="email" class="form-control" id="email" name="email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <label for="pwd">Vezetéknév:</label>
+                                <input type="text" class="form-control" id="vn" name="vn">
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="pwd">Keresztnév:</label>
+                                <input type="text" class="form-control" id="kn" name="kn">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <label for="phone">Telefonszám:</label>
+                                <input type="tel" class="form-control" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <label for="address">Lakcím:</label>
+                                <input type="text" class="form-control" id="address" name="address" placeholder="Utca házszám">
+                            </div>
+                            <div class="col-lg-2">
+                                <label for="zipcode">Irányítószám:</label>
+                                <input type="text" class="form-control" id="zipcode" name="zipcode">
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="city">Város:</label>
+                                <input type="text" class="form-control" id="city" name="city">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <label>Tevékenység:</label>
+                                <div>
+                                    <input type="radio" id="bovarkodas" name="activity" value="bovarkodas">
+                                    <label for="bovarkodas">Búvárkodás</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="setalgatas" name="activity" value="setalgatas">
+                                    <label for="setalgatas">Sétálgatás</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="hajokazas" name="activity" value="hajokazas">
+                                    <label for="hajokazas">Hajókázás</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <label for="guests">Hány főt regisztrál?</label>
+                                <input type="number" class="form-control" id="guests" name="guests" min="1" max="10">
+                            </div>
+                            <div class="col-lg-5">
+                                <label for="date">Időpont:</label>
+                                <input type="datetime-local" class="form-control" id="date" name="date">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Küldés</button>
+                    </form>
+                </fieldset>
+            </div>
         </article>
         <footer class="text-center">
             <img class="logo" src="kepek/ikon.jpg" alt="">
