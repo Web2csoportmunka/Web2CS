@@ -103,33 +103,40 @@ article{
 }
 #a_article{
   height: 100vh;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+}
+#a_article p{
+  padding-right: 50px;
 }
 
-#f_cimszoveg{
+.header_szoveg_feher{
   text-align: center;
   padding-top: 25vh;
   color: white;
   font-size: 30px;
   
 }
-#f_cimszoveg h1{
+.header_szoveg_feher h1{
   text-align: center;
   color: white;
   font-size: 80px;
   font-weight: bolder;
 }
 
-#k_cimszoveg h1{
+.header_szoveg_fekete{
+  text-align: center;
+  padding-top: 25vh;
+  color: black;
+  font-size: 30px;
+  font-weight: bold; 
+}
+.header_szoveg_fekete h1{
   text-align: center;
   color: black;
   font-size: 80px;
-  font-weight: bolder;
-}
-#k_cimszoveg{
-  text-align: center;
-  padding-top: 30vh;
-  color: black;
-  font-size: 30px;
+  font-weight: bold;
 }
 
 #f_article p{
