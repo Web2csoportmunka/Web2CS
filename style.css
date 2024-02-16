@@ -79,7 +79,9 @@ footer{
   border: 3px solid rgb(170, 173, 173);
   padding: 20px;
 }
-
+#k_fieldset * {
+  padding: 5px;
+}
 
 
 
