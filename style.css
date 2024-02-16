@@ -9,6 +9,22 @@ main{
 #kezdo{
     background-image: url(kepek/hatterelso.jpg);
 }
+#k_header{
+    
+    background-image: url(kepek/varos2.jpg);
+}
+#f_header{
+    background-image: url(kepek/varos1.jpg);
+}
+#a_header{
+    background-image: url(kepek/acropolis3.jpg);
+}
+#s_header{
+  background-image: url(kepek/snorkeling_neni.jpg);
+}
+#h_header{
+  background-image: url(kepek/hajo_borito_jav.png);
+}
 header{
     height: 100vh;
     width: 100%;
@@ -82,6 +98,9 @@ article{
   width: 100%;
   background-size: cover;
   background-color: rgb(255, 255, 255);
+}
+#a_article{
+  height: 100vh;
 }
 
 .kartya1{
