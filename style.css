@@ -62,7 +62,7 @@ header{
   }
   .dropdown-content a:hover{
       border-bottom: 1px solid white;
-      transition: 1s ease;
+      transition: 1s;
   }
   .dropdown:hover .dropdown-content {
     display: contents ;
@@ -84,8 +84,28 @@ article{
   background-color: rgb(255, 255, 255);
 }
 
+.kartya1{
+  padding-bottom: 5vh;
+}
+.kartyaSzoveg a{
+  color:  rgb(63, 151, 201);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(63, 151, 201);
+  transition: 0.4s ease;
+}
+.kartyaSzoveg a:hover{
+  border: 1px solid rgb(63, 151, 201);
+  padding: 1vh;
+  font-size: larger;
+  transition: 0.4s
+
+}
+#elsooldalBev{
+  padding: 5vh;
+}
+
 footer{
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   background-image: url(kepek/homokos.jpg);
   background-size: cover;
@@ -93,8 +113,39 @@ footer{
   position: relative;
   overflow: hidden;
 }
+#logok{
+  margin-top: 4vh;
+}
+#logo{
+  margin-top: 4vh;
+  background: none;
+  width: 10vh;
+}
+.fa {
+  padding: 2vh;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3vh;
+  border-radius: 50%;
+}
 
-
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
 
 #k_article{
   height: 100vh;
