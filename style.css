@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 main{
     max-width: 100%;
     margin: auto;
@@ -57,7 +61,7 @@ header{
   display: contents;
 }
 footer{
-    height: 100vh;
+    height: 20vh;
     width: 100%;
     background-image: url(kepek/homokos.jpg);
     background-size: cover;
@@ -65,6 +69,7 @@ footer{
     position: relative;
     overflow: hidden;
 }
+
 
 
 
