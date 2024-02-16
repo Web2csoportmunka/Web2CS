@@ -1,0 +1,76 @@
+main{
+    max-width: 100%;
+    margin: auto;
+}
+#kezdo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(kepek/hatterelso.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    background: none;
+    width: 7vh;
+}
+.navbar {
+    overflow: hidden;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .dropdown-content {
+    display: none;
+    position: relative;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+  display: contents;
+}
+footer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(kepek/homokos.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
