@@ -28,12 +28,12 @@ header{
 .navbar a{
   color: white;
   text-decoration: none;
-
 }
 
 .dropdown {
     float: left;
     overflow: hidden;
+    position: relative;
   }
   .dropdown .dropbtn {
     border: none;
@@ -46,8 +46,10 @@ header{
   }
   .dropdown-content {
     display: none;
-    position: relative;
+    position: absolute;
     z-index: 1;
+    min-width: 160px;
+    left: 0;
   }
   .dropdown-content a {
     float: none;
@@ -56,18 +58,40 @@ header{
     text-decoration: none;
     display: block;
     text-align: left;
+    transition: 1s ease;
+  }
+  .dropdown-content a:hover{
+      border-bottom: 1px solid white;
+      transition: 1s ease;
   }
   .dropdown:hover .dropdown-content {
-  display: contents;
+    display: contents ;
 }
+#elsoszoveg{
+  text-align: center;
+  padding-top: 25vh;
+  color: white;
+}
+
+.elsoszovegp, .elsoszovegh{
+  text-shadow: 5px 5px 5px rgb(6, 40, 66);
+}
+article{
+  overflow: hidden;
+  padding: 5vh;
+  width: 100%;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+}
+
 footer{
-    height: 20vh;
-    width: 100%;
-    background-image: url(kepek/homokos.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
+  height: 20vh;
+  width: 100%;
+  background-image: url(kepek/homokos.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
 
