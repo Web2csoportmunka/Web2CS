@@ -1,9 +1,7 @@
 *{
   box-sizing: border-box;
 }
-article{
-  height: 100vh;
-}
+
 main{
     max-width: 100%;
     margin: auto;
@@ -68,7 +66,10 @@ header{
     z-index: 1;
     min-width: 160px;
     left: 0;
+    top: 100%;
+    display: block;
   }
+  
   .dropdown-content a {
     float: none;
     color: rgb(255, 255, 255);
