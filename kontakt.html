@@ -12,7 +12,7 @@
 </head>
 <body>
     <main>
-        <header>
+        <header id="kezdo">
             <div class="navbar">
                 <a href="index.html">
                     <img class="logo" src="kepek/ikon.jpg" alt="logo">
@@ -32,8 +32,34 @@
             </div>
             <h1>Kapcsolat</h1>
         </header>
-        <article>
+        <article id="k_article" class="row">
             <p>Köszönjük, hogy felkerestél minket! Ha kérdésed van, vagy szeretnéd felvenni velünk a kapcsolatot, kérjük, töltsd ki az alábbi űrlapot, és hamarosan válaszolunk neked.</p>
+            <div class="container col-lg-8">
+                <legend>Írjon nekünk!</legend>
+                <fieldset id="k_fieldset">
+                <form>
+                    <div class="col-lg-3">
+                        <label for="email">E-mail cím:</label>
+                        <input type="email" class="form-control" id="email" placeholder="valami@valami.vmi" name="email">
+                    </div>
+                    <fieldset class="row">
+                        <div class="col-lg-3">
+                            <label for="pwd">Vezetéknév:</label>
+                            <input type="vezeteknev" class="form-control" id="vn" name="vn">
+                        </div>
+                        <div class="col-lg-3">
+                            <label for="pwd">Keresztnév:</label>
+                            <input type="keresztnev" class="form-control" id="kn" name="kn">
+                        </div>
+                    </fieldset>
+                    <div>
+                        <label for="comment">Üzenet:</label>
+                        <textarea class="form-control" rows="5" id="uzenet" name="uzenet"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Küldés</button>
+                </form>
+            </fieldset>
+            </div>
         </article>
         <footer id="kfooter" class="text-center">
             <img class="logo" src="kepek/ikon.jpg" alt="">
