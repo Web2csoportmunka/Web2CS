@@ -6,6 +6,54 @@ main{
     max-width: 100%;
     margin: auto;
 }
+nav {
+  overflow: hidden;
+}
+
+.fomenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.fomenu > li{
+position: relative;
+float: left;
+}
+.fomenu li a {
+  display: block;
+  color: white;
+  text-align:left;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s ;
+
+}
+.fomenu li a:hover,
+.programok-submenu a:hover {
+  border-bottom: 2px solid white;
+  transition: 0.5s ease;
+}
+
+.submenu {
+  display: none;
+  position: relative;
+  z-index: 1;
+
+}
+.submenu ul{
+list-style: none;
+}
+.submenu li{
+list-style: none;
+}
+.submenu li a{
+background-color: #55555523;
+list-style: none;
+}
+
+.programok-submenu:hover .submenu {
+  display: block;
+}
 #kezdo{
     background-image: url(kepek/hatterelso.jpg);
 
@@ -188,55 +236,7 @@ h4{
   padding-top: 10px;
 }
 
-nav {
-    overflow: hidden;
-}
 
-.fomenu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.fomenu > li{
-  position: relative;
-  float: left;
-}
-.fomenu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.5s ;
-
-}
-.fomenu li a:hover,
-.programok-submenu a:hover {
-    border-bottom: 2px solid white;
-    transition: 0.5s ease;
-}
-
-.submenu {
-    display: none;
-    position: relative;
-    background-color: #33333300;
-    z-index: 1;
-
-}
-.submenu ul{
-  list-style: none;
-}
-.submenu li{
-  list-style: none;
-}
-.submenu li a{
-  background-color: #5555551a;
-  list-style: none;
-}
-
-.programok-submenu:hover .submenu {
-    display: block;
-}
 
 
 
