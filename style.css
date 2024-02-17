@@ -79,7 +79,6 @@ header{
 }
 
 .dropdown {
-  
   overflow: hidden;
   font-size: 2.5vh;
   text-shadow: 5px 5px 5px rgb(6, 40, 66);
@@ -92,6 +91,10 @@ header{
   background-color: inherit;
   font-family: inherit;
   margin: 0; 
+  text-shadow: 5px 5px 5px rgb(6, 40, 66);
+}
+.dropbtn{
+  text-shadow: 5px 5px 5px rgb(6, 40, 66);
 }
 .dropdown-content {
   display: none;
