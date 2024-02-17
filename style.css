@@ -30,7 +30,7 @@ main{
 }
 .cimszavak{
   text-align: center;
-  padding-top: 25vh;
+  margin-top: 25vh;
   color: white;
   text-shadow: 5px 5px 5px rgb(6, 40, 66);
 }
@@ -50,75 +50,6 @@ header{
 .logo{
     background: none;
     width: 7vh;
-}
-
-.navbar {
-    overflow: hidden;
-    margin: 0 5vh;
-    position: absolute;
-}
-.navbar li ul{
-  position: absolute;
-  z-index: 1;
-}
-
-.navbar a{
-  color: white;
-  padding: 0px 30px 10px 30px;
-  text-decoration: none;
-  font-size: 2.5vh;
-  text-shadow: 5px 5px 5px rgb(6, 40, 66);
-}
-.navbar a:hover{
-    border-bottom: 1px solid white;
-    transition: 0.5s;
-}
-.navbar a.active {
-  background-color: rgb(7, 8, 10);
-  color: white;
-}
-
-.dropdown {
-  
-  overflow: hidden;
-  font-size: 2.5vh;
-  text-shadow: 5px 5px 5px rgb(6, 40, 66);
-}
-.dropdown .dropbtn {
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0; 
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  min-width: 160px;
-  left: 0;
-  top: 100%;
-  display: block;
-}
-.dropdown-content a {
-  float: none;
-  color: rgb(255, 255, 255);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  transition: 0.5s ease;
-  
-}
-.dropdown-content a:hover{
-    border-bottom: 1px solid white;
-    transition: 0.5s;
-}
-.dropdown:hover .dropdown-content {
-  display: contents ;
-  
 }
 
 article{
@@ -180,13 +111,13 @@ article{
   color:  rgb(63, 151, 201);
   text-decoration: none;
   border-bottom: 1px solid rgb(63, 151, 201);
-  transition: 0.4s ease;
+  transition: 0.3s ease;
 }
 .kartyaSzoveg a:hover{
   border: 1px solid rgb(63, 151, 201);
   padding: 1vh;
   font-size: larger;
-  transition: 0.4s
+  transition: 0.3s
 
 }
 #elsooldalBev{
@@ -222,8 +153,8 @@ footer{
 }
 .fa {
   padding: 2vh;
-  font-size: 30px;
-  width: 50px;
+  font-size: 3vh;
+  width: 8vh;
   text-align: center;
   text-decoration: none;
   margin: 3vh;
@@ -266,10 +197,55 @@ h4{
   padding-top: 10px;
 }
 
+nav {
+    overflow: hidden;
+}
 
+.fomenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.fomenu > li{
+  position: relative;
+  float: left;
+}
+.fomenu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s ;
 
+}
+.fomenu li a:hover,
+.programok-submenu a:hover {
+    border-bottom: 2px solid white;
+    transition: 0.5s ease;
+}
 
+.submenu {
+    display: none;
+    position: relative;
+    background-color: #33333300;
+    z-index: 1;
 
+}
+.submenu ul{
+  list-style: none;
+}
+.submenu li{
+  list-style: none;
+}
+.submenu li a{
+  background-color: #5555551a;
+  list-style: none;
+}
+
+.programok-submenu:hover .submenu {
+    display: block;
+}
 
 
 
