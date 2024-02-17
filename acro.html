@@ -14,70 +14,46 @@
 <body>
     <main>
         <header id="a_header">
-            <div class="navbar">
-                <a href="index.html">
-                    <img class="logo" src="kepek/ikon.jpg" alt="logo">
-                </a>
-                <div class="dropdown">
-                    <button class="dropbtn">Programok
+            <ul class="navbar">
+                <li><a href="index.html"><img class="logo" src="kepek/ikon.jpg" alt="logo"></a></li>
+                <ul class="dropdown">
+                    <li><button class="dropbtn">Programok
                         <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="hajo.html">Hajókázás</a>
-                        <a href="buvar.html">Snorkeling</a>
-                        <a href="acro.html">Acropolis</a>
-                    </div>
-                </div> 
-                <a href="foglalas.html">Foglalás</a>
-                <a href="kontakt.html">Kapcsolat</a>
-            </div>
-            <div class="header_szoveg_fekete">
+                    </button></li>
+                    <ul class="dropdown-content">
+                        <li><a href="hajo.html">Hajókázás</a></li>
+                        <li><a href="buvar.html">Snorkeling</a></li>
+                        <li><a href="acro.html">Acropolis</a></li>
+                    </ul>
+                </ul> 
+                <li><a href="foglalas.html">Foglalás</a></li>
+                <li><a href="kontakt.html">Kapcsolat</a></li>
+            </ul>
+            <div class="header_szoveg">
                 <h1 class="animate-me">Akropolisz</h1>
                 <p class="animate-me">Az ókori csodák nyomában: Az Akropolisz varázsa</p>
             </div>
         </header>
-        <article id="a_article" style="display: flex;">
-            <div style="flex-grow: 1;">
+        <article>
+            <div class="kartyaSzoveg">
                 <h2>Ismerje meg az Akropolisz lenyűgöző világát!</h2>
                 <p>Fedezze fel Athén lenyűgöző történelmét és kultúráját az Akropolisz élménysétáinkkal! Sétáljon vissza az időben az ókori görög civilizáció csodálatos emlékeinél, miközben vezetőink elkalauzolják Önt az Akropolisz lenyűgöző látványosságainak közelében. Élvezze a festői kilátást a városra, és ismerje meg az ősi építészet, művészet és mitológia kincseit. Csatlakozzon hozzánk, és hagyja, hogy az Akropolisz varázsa elbűvölje!</p>
                 <p>Programjaink átlagosan 20-25 fős csoportokban zajlanak, hogy minden résztvevőnek lehetősége legyen a személyre szabott élményekre. A séták általában 2-3 órán át tartanak, amelyek során a résztvevők bejárják az Akropolisz főbb látnivalóit, beleértve a Parthenont, a Propylonsot, az Erechtheiont és más fontos helyszíneket.</p>
+            </div>
+
+            </div> 
+                <div id="acroKepek" class="scroll-container">
+                <img src="kepek/acropolis4.jpg" alt="blue lagoon" width="400" height="300">        
+                <img src="kepek/Erechtheion.jpg" alt="blue lagoon" width="400" height="300">
+                <img src="kepek/pu.jpg" alt="blue caves" width="400" height="300">
+                <img src="kepek/szobrok.jpg" alt="blue lagoon" width="400" height="300">
+                <img src="kepek/nagye.jpg" alt="barlang" width="400" height="300">
+                <img src="kepek/propylon-grieks.jpg" alt="blue lagoon" width="400" height="300">    
+            </div>
+
+            <div class="kartyaSzoveg">
+                <h4>A túravezetőink</h4>
                 <p>A túra vezetője tapasztalt helyi idegenvezető, aki szakértője az ókori görög történelemnek és kultúrának. Kiváló nyelvi készségekkel és átfogó ismeretekkel rendelkezik az Akropolisz történetéről, a művészeti és építészeti elemekről, valamint az ókori görög mitológiáról. Biztos lehet benne, hogy vezetőnk érdekes és informatív történetekkel és érdekességekkel fogja gazdagítani az ön Akropolisz élményét.</p>
-            </div>
-
-            <div id="demo" class="carousel slide" data-bs-ride="carousel" style="width: 600px;">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            </div>
-
-            <div class="carousel-inner" style="width: 300px;">
-                <div class="carousel-item active">
-                    <img src="kepek/Erechtheion.jpg" alt="Erechtheion" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                        <h3>Erechtheion</h3>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="kepek/propylon-grieks.jpg" alt="Propylon" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                        <h3>Propylon</h3>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="kepek/acropolis2.jpg" alt="Acropolis" class="d-block" style="width:100%">
-                    <div class="carousel-caption">
-                        <h3>Acropolis</h3>
-                    </div>
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
             </div>
         </article>
         <footer class="text-center">
