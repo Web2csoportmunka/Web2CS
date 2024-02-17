@@ -26,6 +26,7 @@ main{
 }
 #h_header{
   background-image: url(kepek/hajo1.jpg);
+  background-position: center;
 }
 .cimszavak{
   text-align: center;
@@ -107,9 +108,15 @@ article{
 }
 #a_article{
   height: 100vh;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+}
+#a_article p{
+  padding-right: 50px;
 }
 
-#f_cimszoveg{
+.header_szoveg_feher{
   text-align: center;
   text-shadow: 5px 5px 5px rgb(6, 40, 66);
   padding-top: 25vh;
@@ -117,14 +124,21 @@ article{
   font-size: 4vh;
   
 }
-#f_cimszoveg h1{
+.header_szoveg_feher h1{
   text-align: center;
   color: white;
   font-size: 10vh;
   font-weight: bolder;
 }
 
-#k_cimszoveg h1{
+.header_szoveg_fekete{
+  text-align: center;
+  padding-top: 25vh;
+  text-shadow: 5px 5px 5px rgb(6, 40, 66);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.header_szoveg_fekete h1{
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 10vh;
@@ -136,20 +150,6 @@ article{
   padding-top: 25vh;
   color: rgb(255, 255, 255);
   font-size: 30px;
-}
-
-#f_article p{
-  font-size: 25px;
-  color: black;
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-
-#k_article p{
-  font-size: 25px;
-  color: black;
-  padding-top: 5px;
-  padding-bottom: 10px;
 }
 
 #k_article{
@@ -181,6 +181,16 @@ article{
 }
 #elsooldalBev{
   padding: 5vh;
+}
+div.scroll-container {
+  background-color: #ffffff;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
 }
 
 footer{
