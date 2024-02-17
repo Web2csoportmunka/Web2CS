@@ -46,37 +46,37 @@
                         <div class="row">
                             <div class="col-lg-3">
                                 <label for="email">E-mail cím:</label>
-                                <input type="email" class="form-control" id="email" name="email">
+                                <input type="email" class="form-control" id="email" name="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
                                 <label for="pwd">Vezetéknév:</label>
-                                <input type="text" class="form-control" id="vn" name="vn">
+                                <input type="text" class="form-control" id="vn" name="vn" pattern="^[A-ZÁÉÚŐÓÜÖÍ][a-záéúőóüöí]+\-?[A-ZÁÉÚŐÓÜÖÍ]([a-záéúőóüöí]+)?$">
                             </div>
                             <div class="col-lg-3">
                                 <label for="pwd">Keresztnév:</label>
-                                <input type="text" class="form-control" id="kn" name="kn">
+                                <input type="text" class="form-control" id="kn" name="kn" pattern="^([A-ZÁÉÚŐÓÜÖÍ]([a-záéúőóüöí.]+\s?)){2,}$">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
-                                <label for="phone">Telefonszám:</label>
-                                <input type="tel" class="form-control" id="phone" name="phone">
+                                <label for="tel">Telefonszám:</label>
+                                <input type="tel" class="form-control" id="tel" name="tel" pattern="([\+](36)(20|30|70)\d{7})|((06)\d{9})">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
-                                <label for="address">Lakcím:</label>
-                                <input type="text" class="form-control" id="address" name="address" placeholder="Utca házszám">
+                                <label for="cim">Lakcím:</label>
+                                <input type="text" class="form-control" id="cim" name="cim" placeholder="Utca házszám">
                             </div>
                             <div class="col-lg-2">
-                                <label for="zipcode">Irányítószám:</label>
-                                <input type="text" class="form-control" id="zipcode" name="zipcode">
+                                <label for="irsz">Irányítószám:</label>
+                                <input type="text" class="form-control" id="irsz" name="irsz" pattern="[0-9]{4}">
                             </div>
                             <div class="col-lg-3">
-                                <label for="city">Város:</label>
-                                <input type="text" class="form-control" id="city" name="city">
+                                <label for="varos">Város:</label>
+                                <input type="text" class="form-control" id="varos" name="varos">
                             </div>
                         </div>
                         <div class="row">
