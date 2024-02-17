@@ -45,17 +45,17 @@
                         <div class="row">
                             <div class="col-lg-3">
                                 <label for="email">E-mail cím:</label>
-                                <input type="email" class="form-control" id="email" name="email">
+                                <input type="email" class="form-control" id="email" name="email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
                                 <label for="pwd">Vezetéknév:</label>
-                                <input type="vezeteknev" class="form-control" id="vn" name="vn">
+                                <input type="vezeteknev" class="form-control" id="vn" name="vn" pattern="^[A-ZÁÉÚŐÓÜÖÍ][a-záéúőóüöí]+\-?[A-ZÁÉÚŐÓÜÖÍ]([a-záéúőóüöí]+)?$">
                             </div>
                             <div class="col-lg-3">
                                 <label for="pwd">Keresztnév:</label>
-                                <input type="keresztnev" class="form-control" id="kn" name="kn">
+                                <input type="keresztnev" class="form-control" id="kn" name="kn" pattern="^([A-ZÁÉÚŐÓÜÖÍ]([a-záéúőóüöí.]+\s?)){2,}$">
                             </div>
                         </div>
                         <div class="row">
