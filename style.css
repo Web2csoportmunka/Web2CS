@@ -226,11 +226,12 @@ h4{
     background-color: rgb(255, 255, 255);
     margin: auto;
   }
+
   .cimszavak h1{
-    font-size: 4vh;
+    font-size: 5vh;
   }
   .cimszavak p{
-    font-size: 2vh;
+    font-size: 3vh;
   }
   .fomenu li a{
     padding: 8px 10px;
@@ -252,13 +253,14 @@ h4{
     background-position: center;
   }
   .cimszavak{
-    margin-top: 22vh;
+    margin-top: 18vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
   }
   #k_fieldset * {
     padding: 3px;
     
   }
-  
   
 }
 
