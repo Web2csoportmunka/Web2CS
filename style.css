@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+.col-lg-3 img{
+  width: 10%;
+}
 
 main{
     max-width: 100%;
