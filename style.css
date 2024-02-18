@@ -5,6 +5,7 @@
 main{
     max-width: 100%;
     margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 nav {
   overflow: hidden;
@@ -16,50 +17,48 @@ nav {
   padding: 0;
 }
 .fomenu > li{
-position: relative;
-float: left;
+  position: relative;
+  float: left;
 }
 .fomenu li a {
   display: block;
   color: white;
-  text-align:left;
+  text-align:center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: 0.5s ;
-
 }
 .fomenu li a:hover,
 .programok-submenu a:hover {
   border-bottom: 2px solid white;
-  transition: 0.5s ease;
 }
 
 .submenu {
   display: none;
   position: relative;
   z-index: 1;
-
 }
 .submenu ul{
-list-style: none;
+  list-style: none;
 }
 .submenu li{
-list-style: none;
+  list-style: none;
 }
 .submenu li a{
-background-color: #55555523;
-list-style: none;
+  background-color: #55555523;
+  list-style: none;
+  text-align: left;
 }
 
 .programok-submenu:hover .submenu {
   display: block;
 }
 #kezdo{
-    background-image: url(kepek/hatterelso.jpg);
-
+  background-image: url(kepek/hatterelso.jpg);
+  background-position: center;
 }
 #k_header{
-    background-image: url(kepek/varos2.jpg);
+    background-image: url(kepek/h.jpg);
+
 }
 #f_header{
     background-image: url(kepek/varos1.jpg);
@@ -73,7 +72,7 @@ list-style: none;
   background-position: center;
 }
 #h_header{
-  background-image: url(kepek/hajo1.jpg);
+  background-image: url(kepek/hajohat.jpg);
   background-position: center;
 }
 .cimszavak{
@@ -83,10 +82,10 @@ list-style: none;
   text-shadow: 5px 5px 5px rgb(6, 40, 66);
 }
 .cimszavak h1{
-  font-size: 9vh;
+  font-size: 10vh;
 }
 .cimszavak p{
-  font-size: 3.3vh;
+  font-size: 4vh;
 }
 header{
     height: 100vh;
@@ -112,21 +111,6 @@ article{
   font-size: 20px;
   width: 90%;
   margin: auto;
-}
-
-
-.header_szoveg{
-  text-align: center;
-  text-shadow: 5px 5px 5px rgb(6, 40, 66);
-  padding-top: 25vh;
-  color: white;
-  font-size: 4vh;
-  
-}
-.header_szoveg h1{
-  text-align: center;
-  color: white;
-  font-size: 10vh;
 }
 
 #k_article{
@@ -159,9 +143,7 @@ article{
   transition: 0.3s
 
 }
-#elsooldalBev{
-  padding: 5vh;
-}
+
 div.scroll-container {
   background-color: #ffffff;
   overflow: auto;
@@ -192,7 +174,7 @@ footer{
 }
 .fa {
   padding: 2vh;
-  font-size: 3vh;
+  font-size: 5vh;
   width: 8vh;
   text-align: center;
   text-decoration: none;
@@ -216,7 +198,6 @@ footer{
   color: white;
 }
 
-
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -236,6 +217,50 @@ h4{
   padding-top: 10px;
 }
 
+@media screen and (max-width: 500px) {
+  article{
+    overflow: hidden;
+    padding: 1vh;
+    width: 90%;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+  }
+  .cimszavak h1{
+    font-size: 4vh;
+  }
+  .cimszavak p{
+    font-size: 2vh;
+  }
+  .fomenu li a{
+    padding: 8px 10px;
+    font-size: 2.5vh;
+  }
+  .fomenu li{
+    border-bottom: 1px solid white;
+    background-color: #55555523;
+  }
+  .submenu li{
+    background-color: #55555500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.319);
+
+  }
+  #f_header{
+    background-position: center;
+  }
+  #k_header{
+    background-position: center;
+  }
+  .cimszavak{
+    margin-top: 22vh;
+  }
+  #k_fieldset * {
+    padding: 3px;
+    
+  }
+  
+  
+}
 
 
 
