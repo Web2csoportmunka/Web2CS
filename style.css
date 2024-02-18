@@ -273,10 +273,12 @@ h4{
   .fomenu li a{
     padding: 8px 10px;
     font-size: 2.5vh;
+    text-align: left;
   }
   .fomenu li{
     border-bottom: 1px solid rgba(255, 255, 255, 0.739);
     background-color: #55555523;
+
   }
   .submenu li{
     background-color: #55555500;
