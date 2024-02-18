@@ -142,9 +142,10 @@ article{
   padding: 1vh;
   font-size: larger;
   transition: 0.3s
-
 }
-
+.kartyaSzoveg a:active{
+  background-color:  rgba(89, 137, 166, 0.23);
+}
 div.scroll-container {
   background-color: #ffffff;
   overflow: auto;
@@ -234,17 +235,35 @@ h4{
  .tovabb:active{
   background-color:  rgba(89, 137, 166, 0.23);
  }
+@media screen and (max-width: 994px){
 
-@media screen and (max-width: 500px) {
   article{
-    overflow: hidden;
     padding: 1vh;
-    width: 90%;
-    background-size: cover;
-    background-color: rgb(255, 255, 255);
-    margin: auto;
   }
+  .cimszavak h1{
+    font-size: 6vh;
+  }
+  .cimszavak p{
+    font-size: 4vh;
+  }
+  .cimszavak{
+    margin-top: 18vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }
+  #f_header{
+    background-position: center;
+  }
+  #k_header{
+    background-position: center;
+  }
+}
 
+@media screen and (max-width: 580px) {
+
+  article{
+    padding: 1vh;
+  }
   .cimszavak h1{
     font-size: 5vh;
   }
